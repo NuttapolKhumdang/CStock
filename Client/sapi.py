@@ -73,10 +73,3 @@ class API:
 
 if __name__ == '__main__':
     connect = API(ROOTURL)
-    # connect.addProduct("New Product", "lorem", "mongooseID", 1200, "650f85a48fa0e90f4da6f475", "subcate")
-    # connect.getProduct()
-    # connect.getCategory()
-
-    # x = connect.deleteDocument("Category", '650fac2b3c94b4af4d2eb03e')
-    # x = connect.newCategory("Char")
-    # logres(x)
